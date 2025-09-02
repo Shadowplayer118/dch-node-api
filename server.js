@@ -7,11 +7,11 @@ app.use(express.json());
 
 // Connect to Hostinger MySQL
 const db = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASS,
-  database: process.env.DB_NAME,
-  port: process.env.DB_PORT
+  host: "slategrey-stingray-471759.hostingersite.com",
+  user: "u352107301_doncenenho",
+  password: "Dchinventory2025!",
+  database: "u352107301_dchinventory",
+  port: 3306
 });
 
 // Test connection
